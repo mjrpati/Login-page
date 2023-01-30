@@ -1,0 +1,102 @@
+body{
+  margin: 0;
+  max-height: 100%;
+  background-color: #4B0082;
+  font-family: Arial, Helvetica, sans-serif
+}
+.main{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.card-principal{
+  background-color: white;
+  height: 1000px;
+  width: 600px;
+  flex-direction:column;
+  box-shadow: 0 0 15px black;
+}
+
+.animação{
+  width: 280px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.login-area{
+  display: flex;
+  justify-content: center;
+  flex-direction:column;
+}
+.main-title{
+  text-align: center;
+  font-size: 40px;
+  color: rgba(0, 0, 0, 0.8);
+  text-shadow: #ccc;
+  font-weight: bold;
+}
+.detalhe{
+  height: 2px;
+  background-color: #4B0082;
+  width: 600px;
+  position: relative;
+  top: 100px;
+}
+label{
+  text-align: left;
+  font-size: 20px;
+  padding: 20px;
+}
+input::placeholder{
+  font-size: 16px;
+  color: rgba(129, 122, 122, 0.8);
+}
+input{
+  box-sizing: border-box;
+  width: 550px;
+  padding: 15px;
+  outline-color: #4B0082;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0;
+  box-shadow: 2px 2px 4px 2px
+  #ccc;
+}
+.botão{
+  margin-top: 50px;
+  padding: 16px;
+  border-radius: 100px;
+  width: 250px;
+  margin-right: auto;
+  margin-left: 50%;
+  border: 0;
+  background-color: #4B0082;
+  font-size: 20px;
+  font-weight: bold;
+}
+.botão-link{
+  text-decoration: none;
+  color:white
+}
+.botão:hover{
+  background-color: rgb(45, 20, 63);
+}
+.detalhe{
+  background-color: #ccc;
+  height: 2px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  margin-top: -55px;
+}
+.sign-in{
+ padding: 10px;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 100px;
+}
+
